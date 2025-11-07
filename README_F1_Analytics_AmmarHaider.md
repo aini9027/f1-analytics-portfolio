@@ -84,7 +84,11 @@ f1-analytics-portfolio/
 - 🧮 **Clean Database** (`data/f1.db`)  
 - 🗃️ **SQL Queries** (12+ analysis scripts)  
 - 📓 **Jupyter Notebooks** (cleaning + EDA)  
-- 📈 **Interactive Dashboard** (Power BI / Tableau / Streamlit)  
+- 📈 **Interactive Dashboard** (Power BI / Tableau / Streamlit)
+- 📊 **Power BI Dashboard:**  
+Visuals under development — to be added in the next project iteration.  
+The layout and metrics are described in `dashboard/powerbi_layout.md`.
+
 - 🧾 **Executive Summary Report** (1-page business insights)  
 
 ---
