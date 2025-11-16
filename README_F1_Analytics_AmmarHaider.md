@@ -89,6 +89,42 @@ f1-analytics-portfolio/
 Visuals under development — to be added in the next project iteration.  
 The layout and metrics are described in `dashboard/powerbi_layout.md`.
 
+Exploratory Data Analysis — November 2025 Update
+
+This update adds a full SQL-driven exploratory notebook demonstrating analytical thinking and visualization skills.
+
+New Components
+
+notebooks/02_exploratory_analysis.ipynb
+
+SQL-first analysis with clean Python visualizations
+
+Queries include:
+
+Wins per driver
+
+Average points per driver
+
+Positions gained (grid − finish)
+
+Pit-stop durations by team
+
+Grid vs Finish correlation (Pearson & Spearman)
+
+Circuit performance summary
+
+Simple Matplotlib visuals for clarity and reproducibility
+
+Highlights
+
+Pure SQL workflow showing ability to extract insights from relational data
+
+Verified in Google Colab using SQLite (f1.db)
+
+Plots designed to translate directly into Power BI visuals
+
+Notebook ready for inclusion in analytics dashboards and reports
+
 - 🧾 **Executive Summary Report** (1-page business insights)  
 
 ---
