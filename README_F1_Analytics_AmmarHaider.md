@@ -123,5 +123,5 @@ The layout and metrics are described in `dashboard/powerbi_layout.md`.
 
 ## 👨‍💻 Author
 **Ammar Haider**  
-Data Analytics Enthusiast | F1 Fan | Portfolio Builder  
+Data Analytics Enthusiast | F1 Fan | Portfolio Builder   
 [LinkedIn Profile 🔗](#)  |  [GitHub Repo 🔗](#)
