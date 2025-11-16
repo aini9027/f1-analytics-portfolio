@@ -113,6 +113,12 @@ The layout and metrics are described in `dashboard/powerbi_layout.md`.
 
 ---
 
+## 📘 Latest Updates
+- Added interactive data import and EDA notebooks (Nov 2025)
+- Included sample SQLite database (`data/f1.db`)
+- All analysis tested and validated in Google Colab
+- --
+
 ## 📅 Future Enhancements
 - Add predictive modeling (finish position regression).  
 - Integrate weather / safety-car data for race simulations.  
