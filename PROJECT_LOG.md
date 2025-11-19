@@ -1,7 +1,7 @@
 
 # 📘 PROJECT LOG — Formula 1 Performance Analytics  
 **Author:** Ammar Haider  
-**Goal:** Build an end-to-end data analytics project based on real Formula 1 data, demonstrating skills in data engineering, SQL, visualization, telemetry, strategy analysis, and performance insights — similar to the work of a real F1 data/performance engineer.
+**Goal:** Build an end-to-end data analytics project based on real Formula 1 data, demonstrating skills in data engineering, SQL, visualization, telemetry, strategy analysis, and performance insights similar to the work of a real F1 data/performance engineer.
 
 ---
 
