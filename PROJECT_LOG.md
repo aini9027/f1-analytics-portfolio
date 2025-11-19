@@ -123,6 +123,30 @@ Once the single-race pipeline is validated:
 - Created initial driver performance summary metrics (avg, median, std lap time)
 - Exported CSVs for SQL / Power BI use
 
+- ---
+
+## 7. Silverstone 2023 — Tyre & Stint Analysis (VER vs HAM)  
+**Completed**
+
+- Focused analysis on the **2023 British Grand Prix (Silverstone) – Race session**.  
+- Filtered clean race laps for **VER** and **HAM**, excluding out-laps, in-laps, and invalid lap times.  
+- Built a **tyre-compound-level pace table**:
+  - Average, median, and standard deviation of lap times by driver and compound.
+  - Lap counts per compound to understand sample size and stint length.  
+- Created a **tyre compound pace comparison chart**:
+  - Bar chart of average lap time by compound (Soft/Medium/Hard) for VER vs HAM.
+  - Designed to show how compound choice impacts race pace for each driver.  
+- Built **stint-level boxplots**:
+  - Boxplots of lap-time distributions per stint, split by driver.
+  - Highlights consistency, variability, and potential degradation patterns within each stint.  
+- Exported analysis tables (compound pace, stint-level laps) as CSVs for future:
+  - SQL database integration.
+  - Power BI visualizations.
+- These analyses move the project closer to a **driver performance scouting** use case by quantifying:
+  - How each driver performs on different compounds.
+  - How stable and competitive their stint pace is across the race.
+
+
 
 ## 🔄 Ongoing Updates  
 Each milestone added to this log will help recruiters see the entire engineering and analytics process from start to finish, demonstrating:
