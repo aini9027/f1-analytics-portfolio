@@ -1,0 +1,51 @@
+DriverNumber,Abbreviation,TeamName,LapNumber,PitInTime,PitOutTime
+1,VER,Red Bull Racing,33.0,0 days 01:53:28.742000,
+1,VER,Red Bull Racing,34.0,,0 days 01:53:57.789000
+10,GAS,Alpine,31.0,0 days 01:50:29.495000,
+10,GAS,Alpine,32.0,,0 days 01:50:57.995000
+10,GAS,Alpine,46.0,0 days 02:19:37.355000,
+11,PER,Red Bull Racing,28.0,0 days 01:45:49.766000,
+11,PER,Red Bull Racing,29.0,,0 days 01:46:17.828000
+14,ALO,Aston Martin,33.0,0 days 01:54:08.945000,
+14,ALO,Aston Martin,34.0,,0 days 01:54:37.569000
+16,LEC,Ferrari,18.0,0 days 01:30:08.076000,
+16,LEC,Ferrari,19.0,,0 days 01:30:36.278000
+16,LEC,Ferrari,32.0,0 days 01:52:10.697000,
+16,LEC,Ferrari,33.0,,0 days 01:52:39.509000
+18,STR,Aston Martin,31.0,0 days 01:50:39.308000,
+18,STR,Aston Martin,32.0,,0 days 01:51:07.917000
+2,SAR,Williams,29.0,0 days 01:47:37.014000,
+2,SAR,Williams,30.0,,0 days 01:48:05.857000
+21,DEV,AlphaTauri,27.0,0 days 01:44:33.924000,
+21,DEV,AlphaTauri,28.0,,0 days 01:45:02.298000
+21,DEV,AlphaTauri,32.0,0 days 01:52:55.071000,
+21,DEV,AlphaTauri,33.0,,0 days 01:53:23.477000
+22,TSU,AlphaTauri,14.0,0 days 01:24:14.879000,
+22,TSU,AlphaTauri,15.0,,0 days 01:24:43.191000
+22,TSU,AlphaTauri,32.0,0 days 01:52:47.743000,
+22,TSU,AlphaTauri,33.0,,0 days 01:53:16.352000
+23,ALB,Williams,32.0,0 days 01:52:09.478000,
+23,ALB,Williams,33.0,,0 days 01:52:39.118000
+24,ZHO,Alfa Romeo,24.0,0 days 01:39:56.003000,
+24,ZHO,Alfa Romeo,25.0,,0 days 01:40:25.174000
+24,ZHO,Alfa Romeo,33.0,0 days 01:55:07.647000,
+24,ZHO,Alfa Romeo,34.0,,0 days 01:55:36.349000
+24,ZHO,Alfa Romeo,36.0,0 days 02:01:38.499000,
+24,ZHO,Alfa Romeo,37.0,,0 days 02:02:12.858000
+27,HUL,Haas F1 Team,7.0,0 days 01:13:16.312000,
+27,HUL,Haas F1 Team,8.0,,0 days 01:13:58.296000
+27,HUL,Haas F1 Team,32.0,0 days 01:53:10.368000,
+27,HUL,Haas F1 Team,33.0,,0 days 01:53:40.398000
+31,OCO,Alpine,9.0,0 days 01:16:19.340000,
+4,NOR,McLaren,33.0,0 days 01:53:42.648000,
+4,NOR,McLaren,34.0,,0 days 01:54:11.116000
+44,HAM,Mercedes,33.0,0 days 01:53:57.539000,
+44,HAM,Mercedes,34.0,,0 days 01:54:26.694000
+55,SAI,Ferrari,26.0,0 days 01:42:35.441000,
+55,SAI,Ferrari,27.0,,0 days 01:43:04.300000
+63,RUS,Mercedes,28.0,0 days 01:45:37.282000,
+63,RUS,Mercedes,29.0,,0 days 01:46:06.781000
+77,BOT,Alfa Romeo,32.0,0 days 01:52:38.227000,
+77,BOT,Alfa Romeo,33.0,,0 days 01:53:07.883000
+81,PIA,McLaren,29.0,0 days 01:47:04.827000,
+81,PIA,McLaren,30.0,,0 days 01:47:33.436000
