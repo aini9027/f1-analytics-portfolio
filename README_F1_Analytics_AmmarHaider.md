@@ -83,7 +83,27 @@ f1-analytics-portfolio/
 ## 🖥️ Deliverables
 - 🧮 **Clean Database** (`data/f1.db`)  
 - 🗃️ **SQL Queries** (12+ analysis scripts)  
-- 📓 **Jupyter Notebooks** (cleaning + EDA)  
+- 📓 **Jupyter Notebooks** (cleaning + EDA)
+- ## 🛞 Silverstone 2023 — Tyre & Stint Insights (VER vs HAM)
+
+As part of the real-data phase, the project now includes targeted analysis of the **2023 British Grand Prix (Silverstone)**, comparing **Max Verstappen (VER)** and **Lewis Hamilton (HAM)**.
+
+**What’s included:**
+
+- **Tyre Compound Pace Analysis**  
+  - Average and median lap times by tyre compound (Soft / Medium / Hard) for each driver.  
+  - Bar chart showing how compound choice affects race pace.  
+
+- **Stint-Level Performance & Consistency**  
+  - Boxplots of lap-time distributions per stint for VER vs HAM.  
+  - Highlights consistency, degradation within stints, and the impact of strategy choices.  
+
+**Why this matters for stakeholders:**
+
+- Provides an early view of how drivers differ in tyre management and race pace.  
+- Lays the foundation for a **“driver scouting” perspective** — assessing which driver offers stronger race performance and consistency under similar conditions.  
+- These outputs are designed to be reused directly in the upcoming **Power BI driver performance dashboard**.
+
 - 📈 **Interactive Dashboard** (Power BI / Tableau / Streamlit)
 - 📊 **Power BI Dashboard:**  
 Visuals under development — to be added in the next project iteration.  
