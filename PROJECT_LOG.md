@@ -114,6 +114,16 @@ Once the single-race pipeline is validated:
 
 ---
 
+### 6. Silverstone 2023 — First Real Race Analysis (VER vs HAM)
+- Installed and configured FastF1 with cache
+- Loaded full race session for Silverstone 2023 (British GP)
+- Built structured laps and pit-stop tables
+- Created first race pace comparison chart (lap time vs lap number for VER vs HAM)
+- Built first telemetry comparison (speed vs distance for fastest lap)
+- Created initial driver performance summary metrics (avg, median, std lap time)
+- Exported CSVs for SQL / Power BI use
+
+
 ## 🔄 Ongoing Updates  
 Each milestone added to this log will help recruiters see the entire engineering and analytics process from start to finish, demonstrating:
 - Technical skill  
