@@ -146,7 +146,94 @@ Once the single-race pipeline is validated:
   - How each driver performs on different compounds.
   - How stable and competitive their stint pace is across the race.
 
+23rd November 2025
 
+1. README File Fully Refined
+
+Added a polished Silverstone analysis section.
+
+Standardized formatting, fixed structural issues, and improved clarity.
+
+Updated wording for professionalism and precision.
+
+Created a refined downloadable README (README_refined.md).
+
+Added internal documentation links (ABOUT, CONTRIBUTING, LICENSE, LOG).
+
+Outcome:
+README is now portfolio-ready, clear, professional, and informative.
+
+2. Created ABOUT.md (Detailed Project Overview)
+
+Added a full breakdown of project purpose, workflow, and vision.
+
+Documented all tools, pipelines, and analytical workflows.
+
+Added future roadmap and author details.
+
+Outcome:
+Enhanced depth and professionalism for recruiters reviewing the project.
+
+3. Added CONTRIBUTING.md
+
+Included environment setup, coding style, branching guidelines, and PR instructions.
+
+Added contribution philosophy tailored to F1 analytics.
+
+Outcome:
+Repository now follows open-source standards and signals engineering maturity.
+
+4. Added LICENSE (MIT License)
+
+Created a formal MIT license with author attribution.
+
+Enables legal use, modification, and distribution.
+
+Outcome:
+Makes the repo production-complete and compliant with GitHub norms.
+
+5. Banner Image Added to Repository
+
+A professional repository banner was created and uploaded.
+
+README updated to display banner at the top for branding and visual impact.
+
+Outcome:
+Enhances visual identity and professionalism of the GitHub project.
+
+6. Repository Navigation Improved
+
+Set up internal documentation cross-links.
+
+Cleaned structural layout in the README.
+
+Ensured consistency across project folders.
+
+Outcome:
+Improved user experience and clarity for anyone reviewing the project.
+
+7. Prepared Next Steps for the F1 Analytics Pipeline
+
+The upcoming work was planned and defined:
+
+Position evolution analysis
+
+Lap-by-lap pace deltas
+
+Sector performance breakdown
+
+Telemetry (throttle / brake / speed trace) overlays
+
+Consistency Index metric
+
+SQL table export of FastF1 outputs
+
+Power BI driver scorecard
+
+Phase 1 of “Driver Buy Recommendation Model”
+
+Outcome:
+Clear direction for the next major development phase.
 
 ## 🔄 Ongoing Updates  
 Each milestone added to this log will help recruiters see the entire engineering and analytics process from start to finish, demonstrating:
