@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" alt="F1 Race Strategy Analytics Banner">
+</p>
 
 # 🏎️ Formula 1 Race Strategy Analytics
 **End-to-End Data Analytics Project (SQL | Python | Power BI | Tableau | FastF1)**
