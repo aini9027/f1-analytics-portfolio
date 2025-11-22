@@ -125,6 +125,24 @@ cd f1-analytics-portfolio
 - Included example SQLite database  
 - Added Power BI layout brief  
 
+---
+
+## 📄 Additional Documentation
+
+- 👉 **[ABOUT.md](ABOUT.md)**  
+  Detailed overview of the project structure, goals, analytics workflow, and long-term roadmap.
+
+- 👉 **[CONTRIBUTING.md](CONTRIBUTING.md)**  
+  Guidelines for setting up the environment, coding standards, naming conventions, and how to contribute to the project.
+
+- 👉 **[LICENSE](LICENSE)**  
+  MIT License — permissions, usage rights, and limitations for this project.
+
+For a step-by-step build history, see:  
+- 👉 **[PROJECT_LOG.md](PROJECT_LOG.md)**
+
+---
+
 ## 📅 Future Enhancements
 - Predictive modeling (finishing position regression)  
 - Weather & Safety Car race simulation  
