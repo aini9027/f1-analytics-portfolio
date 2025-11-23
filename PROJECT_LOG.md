@@ -235,6 +235,70 @@ Phase 1 of “Driver Buy Recommendation Model”
 Outcome:
 Clear direction for the next major development phase.
 
+## Sector & Lap Delta Analysis (Silverstone 2023 — VER vs HAM)  
+**Completed: 24 November 2025**
+
+### ✔️ Tasks Completed
+- Reloaded FastF1 session and rebuilt `laps_clean` after Colab runtime reset.
+- Extracted **sector timing data** (S1, S2, S3) for Verstappen (VER) and Hamilton (HAM).
+- Converted sector times to seconds for analysis compatibility.
+- Constructed per-sector pivot tables for clean VER vs HAM comparisons.
+- Calculated **sector deltas** (HAM – VER) to show where Verstappen gained or lost time each lap.
+- Built the **overall lap delta curve** for full-race pace comparison.
+- Created clear visualizations:
+  - Sector delta chart (S1/S2/S3)
+  - Total lap delta time series
+- Improved export process with a robust directory creation and verification block.
+- Saved analytical outputs to:
+  - `sector_deltas_ver_ham.csv`
+  - `lap_deltas_ver_ham.csv`
+
+### ✔️ Why This Matters
+- Sector-by-sector breakdown is one of the **core metrics used by F1 performance engineers**.
+- Shows exactly **where** each driver was gaining time — fast corners, straights, slow corners, etc.
+- Helps explain pace differences beyond tyre choice or stint strategy.
+- Provides foundational data for:
+  - Telemetry overlay comparison
+  - Racecraft analysis (attack/defense patterns)
+  - Driver Scouting Scorecard (upcoming)
+
+### ✔️ Output Files Generated
+- `/content/silverstone_2023/sector_deltas_ver_ham.csv`
+- `/content/silverstone_2023/lap_deltas_ver_ham.csv`
+
+---
+
+### 🔜 Next Steps (Planned for Tomorrow)
+1. **Racecraft & Overtake Analysis**
+   - Position change events  
+   - Attack vs defense zones  
+   - Gap-to-car-ahead evolution  
+
+2. **Telemetry Overlay (VER vs HAM)**
+   - Speed trace  
+   - Throttle & brake  
+   - Gear usage  
+
+3. **Consistency / Stability Metrics**
+   - Rolling pace  
+   - Variation and streaks  
+
+4. **Export to SQL**
+   - Create SQL-ready tables for:
+     - Sector deltas  
+     - Lap deltas  
+     - Stint pace  
+
+5. **Power BI Prep**
+   - Define dataset relationships  
+   - Add visuals for:
+     - Sector scorecard  
+     - Lap delta chart  
+     - Driver comparison page  
+
+---
+
+
 ## 🔄 Ongoing Updates  
 Each milestone added to this log will help recruiters see the entire engineering and analytics process from start to finish, demonstrating:
 - Technical skill  
