@@ -123,7 +123,23 @@ cd f1-analytics-portfolio
 - Added interactive notebooks (Nov 2025)  
 - Added Silverstone FastF1 analysis  
 - Included example SQLite database  
-- Added Power BI layout brief  
+- Added Power BI layout brief
+- 
+### 🆕 Update — Sector & Lap Delta Analysis Added (24 Nov 2025)
+
+The project now includes detailed **sector-by-sector** and **lap delta** analysis for the 2023 British Grand Prix (Silverstone), comparing **Max Verstappen (VER)** and **Lewis Hamilton (HAM)**.
+
+**What’s new:**
+- Extracted and cleaned sector timing data (S1, S2, S3) using FastF1.
+- Computed per-lap sector deltas (HAM – VER) to show where each driver gained or lost time.
+- Built a full-race lap delta curve to visualize underlying race pace differences.
+- Added visualizations for sector deltas and lap deltas.
+- Exported outputs (`sector_deltas_ver_ham.csv`, `lap_deltas_ver_ham.csv`) for integration into SQL and Power BI.
+
+**Why it matters:**  
+This analysis highlights *where* driver and car performance differs — high-speed sections, technical middle sector, braking zones, and traction exits.  
+This forms the basis for upcoming telemetry overlays and the driver scoring model.
+
 
 ---
 
