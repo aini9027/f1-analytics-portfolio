@@ -79,7 +79,37 @@ This project includes targeted analysis of the **2023 British Grand Prix (Silver
 ### 🔹 Why This Matters
 - Shows relative tyre management ability  
 - Helps quantify race pace consistency  
-- Forms the foundation for the upcoming **Driver Scouting Scorecard**  
+- Forms the foundation for the upcoming **Driver Scouting Scorecard**
+
+- ## 📸 Sample Visuals from the Analysis
+
+Below are selected visuals from the Silverstone 2023 (VER vs HAM) race analysis to demonstrate pace, strategy, and driver performance differences.
+
+### 🏁 Position Evolution — VER vs HAM (Silverstone 2023)
+<p align="center">
+  <img src="assets/position_evolution.png" width="700">
+</p>
+
+### 🟦 Sector Delta Comparison (HAM – VER)
+<p align="center">
+  <img src="assets/sector_delta.png" width="700">
+</p>
+
+### 🟥 Lap Time Delta (HAM – VER)
+<p align="center">
+  <img src="assets/lap_delta.png" width="700">
+</p>
+
+### 🟨 Tyre Compound Pace (Average Lap Times)
+<p align="center">
+  <img src="assets/compound_pace.png" width="700">
+</p>
+
+### 🟩 Stint Consistency Boxplots
+<p align="center">
+  <img src="assets/stint_boxplot.png" width="700">
+</p>
+
 
 ## 🖥️ Deliverables
 - 🧮 Clean database (`data/f1.db`)  
