@@ -23,7 +23,10 @@ Analyze Formula 1 race, qualifying, and lap data to uncover **how driver perform
 5. What is the impact of pitting under Safety Car vs. green flag conditions?
 
 ## 🗂️ Project Structure
+> All analysis code is available inside the `notebooks/` directory, with each step of the workflow clearly documented and reproducible.
+
 ```
+
 f1-analytics-portfolio/
 │
 ├─ data/                     # CSVs or API extracts (drivers, races, results, telemetry)
