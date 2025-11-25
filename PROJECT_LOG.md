@@ -298,6 +298,75 @@ Clear direction for the next major development phase.
 
 ---
 
+## 8. Deepening Silverstone 2023 Analysis + Racecraft Foundations  
+**Completed: 25 November 2025**
+
+### ✔️ Tasks Completed Today
+- Rebuilt the FastF1 analysis environment after Colab session reset.
+- Re-ran and validated all previously completed components of the Silverstone 2023 analysis:
+  - Tyre compound pace (Soft / Medium / Hard)
+  - Stint consistency boxplots
+  - Position evolution (VER vs HAM)
+  - Sector-by-sector deltas (S1, S2, S3)
+  - Lap time deltas (HAM – VER)
+- Regenerated all visuals and saved them as `.png` files for GitHub inclusion.
+- Uploaded the images into the `assets/` directory of the repository.
+- Added a clean **Sample Visuals** section in the README using centered Markdown image embeds.
+
+### ✔️ Racecraft Analysis — Core Foundations Implemented
+- Constructed cumulative race times per driver (`CumTime`).
+- Built a clean per-lap grid showing driver, position, and cumulative time.
+- Implemented car-ahead and car-behind detection through self-merging logic.
+- Calculated:
+  - **GapAhead** (time to car in front)
+  - **GapBehind** (time from car behind)
+- Classified each lap for VER and HAM into four racecraft states:
+  - **Attack** (≤1.0s behind the car ahead)
+  - **Defense** (car behind ≤1.0s)
+  - **Attack & Defense** (in a battle on both ends)
+  - **Neutral**
+- Built a racecraft timeline scatter plot for VER and HAM, color-coded by zone.
+- Created a racecraft summary table showing how many laps each driver spent:
+  - Attacking  
+  - Defending  
+  - Neutral  
+  - Both attacking and defending  
+- Prepared CSV exports for racecraft lap data and the driver summary table.
+
+### ✔️ Repository Updates
+- README updated with all new visuals:
+  - Position Evolution  
+  - Sector Deltas  
+  - Lap Deltas  
+  - Compound Pace  
+  - Stint Boxplots  
+- Ensured images display cleanly and consistently in the README.
+- Upload the completed Silverstone notebook to GitHub as  
+  `03_silverstone_2023_analysis.ipynb`.
+
+### 📂 Files Updated / Created
+- `assets/position_evolution.png`
+- `assets/sector_delta.png`
+- `assets/lap_delta.png`
+- `assets/compound_pace.png`
+- `assets/stint_boxplot.png`
+- `silverstone_2023/sector_deltas_ver_ham.csv`
+- `silverstone_2023/lap_deltas_ver_ham.csv`
+- `silverstone_2023/racecraft_laps_ver_ham.csv` (planned)
+- `silverstone_2023/racecraft_summary_ver_ham.csv` (planned)
+
+### 🔜 Next Steps (Planned)
+
+- Begin **Notebook 4: Racecraft & Telemetry Analysis**:
+  - Speed trace comparison (VER vs HAM)
+  - Throttle, brake, and gear usage overlays
+  - Attack/Defense intensity visualizations
+  - Corner-by-corner delta analysis
+- Prepare dataset exports for Power BI and set up the race strategy dashboard model.
+
+---
+
+
 
 ## 🔄 Ongoing Updates  
 Each milestone added to this log will help recruiters see the entire engineering and analytics process from start to finish, demonstrating:
