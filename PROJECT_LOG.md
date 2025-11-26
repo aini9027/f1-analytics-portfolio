@@ -344,6 +344,52 @@ Clear direction for the next major development phase.
 - Upload the completed Silverstone notebook to GitHub as  
   `03_silverstone_2023_analysis.ipynb`.
 
+  ## Racecraft & Telemetry Analysis – Silverstone 2023 (VER vs HAM)  
+**Completed: 27 November 2025**
+
+### ✔️ Tasks Completed
+- Created a new notebook `04_racecraft_and_telemetry.ipynb` focused on:
+  - Gap evolution between VER and HAM
+  - Telemetry overlay for a selected race lap
+- Rebuilt the Silverstone 2023 race session using FastF1 and constructed a clean `laps_clean` dataset for this notebook.
+- Computed **cumulative race time per driver** and derived a **HAM – VER gap evolution curve**:
+  - Visualized how the time gap changed lap-by-lap across the race.
+  - Provided a clear picture of race control and pressure phases.
+- Selected a representative race lap and extracted full **telemetry traces** for:
+  - Max Verstappen (VER)
+  - Lewis Hamilton (HAM)
+- Generated:
+  - **Speed trace overlay** (speed vs distance for VER vs HAM)
+  - **Speed delta plot** (HAM – VER by distance)
+- Exported telemetry-based visuals as high-resolution `.png` files for use in the README and future dashboards.
+
+### ✔️ Why This Matters
+- Telemetry overlays are a **core tool** used by F1 performance engineers to:
+  - Compare driver styles
+  - Understand car behaviour in different phases of a corner
+  - Identify where time is gained or lost on track
+- The combination of:
+  - sector/lap deltas (notebooks 2–3) and  
+  - telemetry overlays (notebook 4)  
+  creates a **complete race engineering-style analysis** pipeline suitable for F1 analytics roles.
+
+### 📂 New / Updated Assets
+- `assets/telemetry_speed_trace_lap30.png`
+- `assets/telemetry_speed_delta_lap30.png`
+- `notebooks/04_racecraft_and_telemetry.ipynb` (to be uploaded)
+
+### 🔜 Next Steps
+- Upload `04_racecraft_and_telemetry.ipynb` to GitHub.
+- Extend telemetry analysis to:
+  - Throttle/brake application
+  - Gear usage
+- Create a **“Driver Scouting” view** that combines:
+  - Pace metrics
+  - Consistency metrics
+  - Racecraft (attack/defense)
+  - Telemetry-based strengths by corner type.
+
+
 ### 📂 Files Updated / Created
 - `assets/position_evolution.png`
 - `assets/sector_delta.png`
