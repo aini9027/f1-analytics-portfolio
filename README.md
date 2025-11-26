@@ -120,6 +120,33 @@ Below are selected visuals from the Silverstone 2023 (VER vs HAM) race analysis 
   <img src="assets/stint_boxplot.png" width="700">
 </p>
 
+## 📡 Telemetry Insights – Silverstone 2023 (VER vs HAM)
+
+Using FastF1 telemetry, the project compares **Max Verstappen and Lewis Hamilton** on a selected race lap at Silverstone 2023.
+
+### 🔹 Speed Trace Overlay
+<p align="center">
+  <img src="assets/telemetry_speed_trace_lap30.png" width="700">
+</p>
+
+- Shows how VER and HAM differ in **corner entry, mid-corner, and exit speeds**.
+- Highlights where one driver is more confident on turn-in or maintains higher minimum speed.
+
+### 🔹 Speed Delta by Distance (HAM – VER)
+<p align="center">
+  <img src="assets/telemetry_speed_delta_lap30.png" width="700">
+</p>
+
+- Positive delta ⇒ HAM faster at that point on track  
+- Negative delta ⇒ VER faster  
+- Allows **corner-by-corner performance comparison** and ties together:
+  - Car setup differences  
+  - Tyre state  
+  - Driving style  
+
+These telemetry insights complement the lap/sector delta analysis and support a **driver scouting and race engineering perspective**, not just pure statistics.
+
+
 
 ## 🖥️ Deliverables
 - 🧮 Clean database (`data/f1.db`)  
