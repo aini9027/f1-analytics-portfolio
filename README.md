@@ -64,7 +64,14 @@ f1-analytics-portfolio/
 ## 🔍 Data Sources
 - **Ergast API** — historical results, qualifying, pit stops, lap times  
 - **FastF1 Library** — timing, tyre, stint, and telemetry data  
-- **Kaggle Datasets** — precompiled CSVs for offline use  
+- **Kaggle Datasets** — precompiled CSVs for offline use
+
+### 📄 Processed Data (Generated)
+- `sector_deltas_ver_ham.csv`
+- `lap_deltas_ver_ham.csv`
+- `racecraft_laps_ver_ham.csv`
+- `racecraft_summary_ver_ham.csv`
+
 
 ## 📓 Silverstone 2023 — Tyre & Stint Insights (VER vs HAM)
 This project includes targeted analysis of the **2023 British Grand Prix (Silverstone)**, comparing **Max Verstappen (VER)** and **Lewis Hamilton (HAM)**.
@@ -84,7 +91,7 @@ This project includes targeted analysis of the **2023 British Grand Prix (Silver
 - Helps quantify race pace consistency  
 - Forms the foundation for the upcoming **Driver Scouting Scorecard**
 
-- ## 📸 Sample Visuals from the Analysis
+## 📸 Sample Visuals from the Analysis
 
 Below are selected visuals from the Silverstone 2023 (VER vs HAM) race analysis to demonstrate pace, strategy, and driver performance differences.
 
@@ -157,7 +164,7 @@ cd f1-analytics-portfolio
 - Added Silverstone FastF1 analysis  
 - Included example SQLite database  
 - Added Power BI layout brief
-- 
+  
 ### 🆕 Update — Sector & Lap Delta Analysis Added (24 Nov 2025)
 
 The project now includes detailed **sector-by-sector** and **lap delta** analysis for the 2023 British Grand Prix (Silverstone), comparing **Max Verstappen (VER)** and **Lewis Hamilton (HAM)**.
