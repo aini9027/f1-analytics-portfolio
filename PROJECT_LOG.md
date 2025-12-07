@@ -409,6 +409,97 @@ Clear direction for the next major development phase.
   - Attack/Defense intensity visualizations
   - Corner-by-corner delta analysis
 - Prepare dataset exports for Power BI and set up the race strategy dashboard model.
+- 
+
+Telemetry Interpretation Documentation + README Enhancements
+
+Date: 7 December 2025
+
+✔️ Tasks Completed
+
+Added a full, engineer-level explanation of how to read F1 telemetry plots, including:
+
+Speed trace interpretation
+
+Braking zones
+
+Apex speed analysis
+
+Corner exit traction reading
+
+Straight-line performance evaluation
+
+Speed delta interpretation (HAM – VER)
+
+Generated a clean, copy-paste-ready Markdown block for the README explaining telemetry concepts.
+
+Structured the section so it is both technically accurate for race engineers and accessible for recruiters.
+
+Outlined how telemetry reveals driver strengths, car characteristics, setup differences, and racecraft decisions.
+
+Clarified the interpretation of:
+
+Mid-corner rotation
+
+Braking aggression
+
+Traction performance
+
+Aero/drag influences
+
+Prepared the README to support upcoming telemetry additions such as:
+
+Corner overlays
+
+Throttle/brake traces
+
+Gear usage
+
+ERS deployment maps
+
+✔️ Why This Matters
+
+Telemetry interpretation transforms the project from a “data project” into a genuine motorsport engineering analysis.
+
+Recruiters (both data and motorsport roles) can now understand:
+
+What telemetry means
+
+How to read the visuals
+
+Why this analysis is valuable
+
+Adds a strong educational component to the portfolio, showing:
+
+Communication skills
+
+Domain understanding
+
+Race engineering insight
+
+Bridges the gap between raw data and actionable racing insights—exactly what F1 teams expect.
+
+✔️ Files Updated
+
+README.md (telemetry interpretation section prepared)
+
+(Pending upload) docs/how_to_read_telemetry.md if you choose to add it
+
+📌 Next Steps
+
+Add corner labels (Turn 1–18) to telemetry plots
+
+Extend telemetry analysis with:
+
+Brake trace
+
+Throttle trace
+
+Gear usage overlay
+
+Integrate telemetry into the “Driver Scouting Scorecard”
+
+Finalize and upload Notebook 4 after adding these insights
 
 ---
 
