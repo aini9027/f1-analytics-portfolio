@@ -146,7 +146,123 @@ Using FastF1 telemetry, the project compares **Max Verstappen and Lewis Hamilton
 
 These telemetry insights complement the lap/sector delta analysis and support a **driver scouting and race engineering perspective**, not just pure statistics.
 
+📡 How to Read F1 Telemetry Plots (Engineer-Level Guide)
 
+Understanding telemetry is essential in Formula 1 because it reveals where and why one driver is faster than another.
+This project uses FastF1 telemetry data (speed, distance, sectors) to compare Max Verstappen (VER) and Lewis Hamilton (HAM) during the 2023 British Grand Prix.
+
+This section explains how to interpret the telemetry plots included in this repository so that even non-technical readers can follow the engineering analysis.
+
+🏎️ 1. Speed Trace Overlay (Speed vs Distance)
+
+The speed trace shows how a driver brakes, corners, and accelerates through the lap.
+
+<p align="center"> <img src="assets/telemetry_speed_trace_lap30.png" width="650"> </p>
+🔍 What to look for
+A. Braking Zones (sharp downward slopes)
+
+A steep drop = hard or late braking
+A smooth drop = earlier or more controlled braking
+
+Example interpretation:
+
+If HAM’s curve drops later → HAM brakes later / more aggressively
+
+If VER’s drop is smoother → VER manages the entry more progressively
+
+B. Apex Speeds (lowest point in the curve)
+
+This shows mid-corner grip and rotation.
+
+Example interpretation:
+
+If VER’s minimum speeds are higher → VER carries more mid-corner speed
+
+If HAM’s line sits higher at certain corners → Mercedes stronger in that section
+
+C. Corner Exit (where the curve rises after the apex)
+
+Shows traction and throttle application.
+
+Example interpretation:
+
+VER’s trace rising earlier → better traction or earlier throttle
+
+HAM accelerating sooner → stronger exit grip or deployment
+
+D. Straights (flat or gently rising areas)
+
+Peak speeds indicate top-end performance.
+
+Example interpretation:
+
+Higher peak speed = lower drag / better ERS
+
+HAM faster on straights → Mercedes aero efficiency
+
+VER faster → Red Bull’s lower drag philosophy
+
+📉 2. Speed Delta Plot (HAM – VER)
+<p align="center"> <img src="assets/telemetry_speed_delta_lap30.png" width="650"> </p>
+
+The delta plot shows directly which driver is faster at each part of the track.
+
+Positive delta (above zero) → HAM faster
+
+Negative delta (below zero) → VER faster
+
+🔍 What patterns reveal
+A. Time Gain / Loss
+
+Rising delta → HAM gaining
+
+Falling delta → VER gaining
+
+B. Corner Characteristics
+
+Deep dips at corner exits → VER traction advantage
+
+Sharp spikes at braking zones → HAM braking confidence
+
+Flat positive regions → HAM straight-line advantage
+
+Sustained negative regions → VER corner-to-corner momentum
+
+🧠 Why This Analysis Matters
+
+Telemetry reveals the exact reason behind lap time differences:
+
+Where does each driver gain or lose time?
+
+Is the advantage from braking, apex speed, or traction?
+
+Are the differences caused by setup, driving style, or tyre condition?
+
+This type of analysis mirrors how F1 teams evaluate:
+
+Driver performance
+
+Car balance
+
+Setup options
+
+Strategy decisions
+
+Including telemetry in your portfolio demonstrates race engineering-level analytical thinking, far beyond basic data visualization.
+
+📘 Coming Soon
+
+Future telemetry enhancements planned for this project:
+
+Corner labels (Turn 1–18 overlays)
+
+Throttle & brake traces
+
+Gear usage comparison
+
+ERS deployment mapping
+
+Driver performance scoring framework
 
 ## 🖥️ Deliverables
 - 🧮 Clean database (`data/f1.db`)  
